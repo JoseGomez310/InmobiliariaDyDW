@@ -1,0 +1,246 @@
+#contenedor{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FAF3DD;
+}
+
+#header{
+    height: 92px;
+    background-color: #8FC0A9;
+    background-size: 100% 170px;
+    position: relative;
+}
+
+#logo {
+    height: 75px;
+    left: 30px;
+    text-shadow: black 5px 5px;
+    position: absolute;
+}
+
+#logo h1 {
+    font-size: 2.25em;
+    letter-spacing: -2px;
+    color: #fff;
+}
+
+#nav {
+    right: 90px;
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    display: block;
+    margin-top: 26px;
+    text-shadow: black 1px 1px;
+}
+
+#nav ul li{
+    display: block;
+    float: left;
+    margin: 0 0 0 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    margin:10px auto;
+	display:block;
+    border-radius: 50px;
+    border: #8FC0A9 solid;
+    width: 90%;
+}
+
+#servicios{
+    background-color: #C8D5B9;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 50px;
+    padding: 1px;
+    font-size: 1.2em;
+    box-shadow: black 5px 5px 20px;
+}
+
+#informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    margin: 40px;
+    text-align: center;
+    background-color: #C8D5B9;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: black 5px 5px 20px;
+}
+
+.info img{
+    height: 150px;
+    width: 250px;
+}
+
+.prop{
+    margin: 40px;
+    text-align: center;
+    background-color: #C8D5B9;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: black 5px 5px 20px;
+}
+
+.prop a{
+    color: black;
+}
+
+.prop img{
+    height: 150px;
+    width: 250px;
+}
+
+#footer{
+    height: 160px;
+    background-color: #8FC0A9;
+    background-size: 100% 170px;
+    position: relative;
+    color: #fff;
+}
+
+#footer-logo{
+    float:left;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-shadow: black 2px 2px;
+}
+
+#contacto{
+    float:right;
+    margin-right: 200px;
+    font-size: 0.90em;
+}
+
+form{
+    height: 640px;
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:10px auto;
+	background-color:#C8D5B9;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #8FC0A9;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#8FC0A9;
+} 
+
+#flipCentenario{
+    display: none;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#flipVicente{
+    display: none;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#flipRosales{
+    display: none;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#flipDebe{
+    display: none;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#flipDehe{
+    display: none;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#flipBruno{
+    display: none;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    #logo h1 {
+        font-size: 1.25em;
+        text-align: center;
+    }
+    #servicios{
+        margin: 0;
+        font-size: 1em;
+    }
+    #informacion{
+        display: block;
+    }
+    .info img{
+        height: 100px;
+        width: 200px;
+    }
+    #footer-logo{
+        margin-left: 5px;
+    }
+    h3{
+        font-size: 0.50em;
+    }
+    #contacto{
+        margin-right: 5px;
+        margin-top: 40px;
+        font-size: 0.50em;
+    }
+    #header{
+        height: 150px;
+    }
+    #nav{
+        font-size: 1em;
+        margin: 10px auto;
+        position: relative;
+        right: 0px;
+        text-align: center;
+    }
+    #logo{
+        height: auto;
+        display: block;
+        position: relative;
+        margin: 10px auto;
+        left: 0px;
+        text-shadow: black 2px 2px;
+    }
+    #nav ul li {
+        float: none;
+        margin: 0px;
+    }
+    ul{
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        padding-inline-start: 0px;
+    }
+    .prop img{
+        height: 100px;
+        width: 200px;
+    }
+    .prop h3{
+        font-size: 1.2em;
+    }
+}
